@@ -1,0 +1,104 @@
+Welcome to Emergency Dispatch & Response Priority Simulator
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): Enter unique positive case ID: Emergency type: 1. Medical  2. Fire  3. Police
+Choose type: Severity (1 = low, 5 = critical): Distance from control point in km (0 to 1000): Emergency registered successfully. Priority score: 56.25
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): 
+--- PENDING EMERGENCIES (highest priority first) ---
+Case ID  Type       Severity  Distance   Priority  
+101      Fire       5         3.50       56.25     
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): Dispatched Fire Unit unit 4 to case 101 (Fire).
+Case status: DISPATCHED | Unit status: BUSY
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): 
+--- RESPONSE UNITS ---
+Unit ID  Type           Distance(km) Status       Case ID   
+1        Ambulance      2.00         AVAILABLE    -
+2        Ambulance      5.00         AVAILABLE    -
+3        Ambulance      8.00         AVAILABLE    -
+4        Fire Unit      1.50         BUSY         101
+5        Fire Unit      4.00         AVAILABLE    -
+6        Fire Unit      7.00         AVAILABLE    -
+7        Police Unit    2.50         AVAILABLE    -
+8        Police Unit    6.00         AVAILABLE    -
+9        Police Unit    9.00         AVAILABLE    -
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): Enter case ID to resolve: Case 101 marked RESOLVED. Assigned unit has been released.
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): 
+--- EMERGENCY HISTORY ---
+Case ID  Type       Severity Distance   Priority   Status       Unit ID   
+101      Fire       5        3.50       56.25      RESOLVED     -
+
+==============================================
+     EMERGENCY DISPATCH & RESPONSE SYSTEM
+==============================================
+1. Register Emergency
+2. View Pending Emergencies
+3. Dispatch Emergency Unit
+4. View Available Units
+5. Mark Case as Resolved
+6. View Emergency History
+7. Exit
+Enter your choice (1-7): Thank you for using the simulator. Goodbye!

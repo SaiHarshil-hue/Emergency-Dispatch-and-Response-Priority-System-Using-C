@@ -19,8 +19,13 @@ Priority formula used:
   Medical weight = 10, Fire weight = 8, Police weight = 6
   Distance penalty = distance in km / 2
 
+
 Notes:
 - This is an educational console simulator, not a real emergency service.
 - Nine sample units are initialized (three per category); their distances are fixed example values.
 - Data is stored in memory and resets when the program exits.
-- Case IDs must be unique positive integers; severity is 1-5; distance is 0-1000 km.
+- Case IDs are automatically generated, starting from 101.
+- Severity must be between 1 and 5.
+- Distance must be between 0 and 1000 km.
+- Invalid inputs are rejected through input validation.
+

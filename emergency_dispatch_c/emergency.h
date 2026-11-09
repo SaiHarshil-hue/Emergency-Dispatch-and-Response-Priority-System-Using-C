@@ -65,4 +65,9 @@ void view_history(Emergency cases[], int case_count);
 const char *emergency_type_name(EmergencyType type);
 const char *unit_type_name(UnitType type);
 
+int read_int(const char *prompt, int min_value, int max_value,
+             int *out_value);
+const char *case_status_name(CaseStatus status);
+const char *unit_status_name(UnitStatus status);
+
 #endif

@@ -79,7 +79,7 @@ void dispatch_emergency(Emergency cases[], int case_count,
         }
 
         if (best_unit >= 0) {
-            // Find the corresponding case in the original array
+        
             for (j = 0; j < case_count; j++) {
                 if (cases[j].id == sorted_cases[i].id) {
                     best_case = j;

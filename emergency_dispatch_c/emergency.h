@@ -60,7 +60,7 @@ void resolve_emergency(Emergency cases[], int case_count,
                        ResponseUnit units[], int unit_count);
 
 void view_units(ResponseUnit units[], int unit_count);
-void view_history(Emergency cases[], int case_count);
+void view_history(const Emergency cases[], int case_count);
 
 const char *emergency_type_name(EmergencyType type);
 const char *unit_type_name(UnitType type);
